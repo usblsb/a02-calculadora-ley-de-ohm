@@ -1,0 +1,39 @@
+.ohms-law-calculator {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+        padding: 15px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.ohms-law-calculator label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ohms-law-calculator input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.ohms-law-calculator button {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ohms-law-calculator button:hover {
+    background-color: #0056b3;
+}
+
+.ohms-law-calculator .resultado {
+    margin-top: 10px;
+    font-weight: bold;
+}
